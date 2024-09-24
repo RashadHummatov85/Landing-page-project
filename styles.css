@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Main Section */
+.main-section {
+    background-color: #37475a;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.signup-btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #005f87;
+}
+
+.image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #8e8e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Info Section */
+.info-section {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box {
+    border: 2px solid #4a9ef8;
+    padding: 1rem;
+    width: 20%;
+    border-radius: 0.5rem;
+}
+
+.info-box span {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background-color: #d3d3d3;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.testimonial-section blockquote {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.testimonial-section cite {
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 1rem;
+    color: #666;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #4a9ef8;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.cta-btn {
+    padding: 1rem 2rem;
+    background-color: #006dbf;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.cta-btn:hover {
+    background-color: #004f90;
+}
+
+/* Footer */
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
